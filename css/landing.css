@@ -1,0 +1,93 @@
+.nav-bar {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color:  rgb(9, 85, 248);
+    color: white;
+
+}
+
+h1 {
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+.getstarted {
+    font-size: medium;
+}
+
+#getstartedbtn {
+    align-content: center;
+    margin-right: 100px;
+    color: white;
+    background-color: rgb(123, 230, 17);
+    font-size: x-large;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+#chatwithusbtn {
+    align-content: center;
+    color: rgb(9, 85, 248);
+    background-color: white;
+    font-size: x-large;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.lastline  {
+    background-color:rgb(9, 85, 248);
+    font-size: medium;
+    padding: 50px;
+}
+
+.flexbox-container-1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 70%;
+    margin: 60px 40px;
+    
+}
+
+.flexbox-item-2{
+    background-color: rgb(9, 85, 248);
+    border-radius: 20px;
+    padding: 70px 40px;
+    color: white;
+    font-size: small;
+    height: 100%;
+    width: 100%;
+    line-height: 20px;
+}
+
+.flexbox-item-1{
+    height: 250px;
+    width: auto;
+    background-color: white;
+}
+
+.btn-secondary{
+    background-color:transparent;
+    border-color: white;
+
+}
