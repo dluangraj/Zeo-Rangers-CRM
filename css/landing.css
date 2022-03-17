@@ -58,36 +58,73 @@ h1 {
     padding: 50px;
 }
 
-.flexbox-container-1{
+.flexbox-container-1 {
     display: flex;
     justify-content: center;
-    align-items:center;
-    border: 1px solid lightgray;
+    margin: 0px 200px 0px 200px;
+    border: solid lightgray 2px;
     border-radius: 20px;
-    width: 70%;
-    margin: 60px 40px;
-    
+    align-items: center;
 }
 
-.flexbox-item-2{
-    background-color: rgb(9, 85, 248);
-    border-radius: 20px;
-    padding: 70px 40px;
-    color: white;
-    font-size: small;
-    height: 100%;
-    width: 100%;
-    line-height: 20px;
+.flexbox-item {
+    display: flexbox;
+    width: 80%;
+    margin: 0;
+    height: 100px;
 }
 
-.flexbox-item-1{
+.flexbox-item-1 { 
     height: 250px;
     width: auto;
     background-color: white;
 }
 
-.btn-secondary{
-    background-color:transparent;
-    border-color: white;
+.flexbox-item-2 {
+    padding: 70px 40px;
+    color: white;
+    height: 100%;
+    font-size: small;
+    line-height: 20px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(9, 85, 248);
+    margin-top: 0px
+}
+.flexbox-text{
+    margin-top: -80px
+}
 
+.btn-secondary {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: 10px;
+}
+
+#credit-card {
+    width: 100%;
+}
+
+#explore {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 300px;
+    margin-right: 250px;
+    justify-content: center;
+}
+
+.grid-item-explore {
+    border: solid lightgray 2px;
+    border-radius: 25px;
+    margin: 100px;
+    padding: 10px;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+#image-row1 {
+    align-items: center;
+    margin: 50px;
+    padding-top: 6px;
 }
