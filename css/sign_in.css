@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/* Allows the container to stretch the entire width of the screen */
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+    
+}
+.section-1 {
+    margin: 0px;
+    padding: 0px;
+    color: whitesmoke;
+    background-color: blue;
+    clip-path:ellipse(610px 1045px at 5% -50%);
+}
