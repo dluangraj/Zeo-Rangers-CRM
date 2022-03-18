@@ -1,0 +1,130 @@
+.nav-bar {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color:  rgb(9, 85, 248);
+    color: white;
+
+}
+
+h1 {
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+.getstarted {
+    font-size: medium;
+}
+
+#getstartedbtn {
+    align-content: center;
+    margin-right: 100px;
+    color: white;
+    background-color: rgb(123, 230, 17);
+    font-size: x-large;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+#chatwithusbtn {
+    align-content: center;
+    color: rgb(9, 85, 248);
+    background-color: white;
+    font-size: x-large;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.lastline  {
+    background-color:rgb(9, 85, 248);
+    font-size: medium;
+    padding: 50px;
+}
+
+.flexbox-container-1 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 200px 0px 200px;
+    border: solid lightgray 2px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.flexbox-item {
+    display: flexbox;
+    width: 80%;
+    margin: 0;
+    height: 100px;
+}
+
+.flexbox-item-1 { 
+    height: 250px;
+    width: auto;
+    background-color: white;
+}
+
+.flexbox-item-2 {
+    padding: 70px 40px;
+    color: white;
+    height: 100%;
+    font-size: small;
+    line-height: 20px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(9, 85, 248);
+    margin-top: 0px
+}
+.flexbox-text{
+    margin-top: -80px
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: 10px;
+}
+
+#credit-card {
+    width: 100%;
+}
+
+#explore {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 300px;
+    margin-right: 250px;
+    justify-content: center;
+}
+
+.grid-item-explore {
+    border: solid lightgray 2px;
+    border-radius: 25px;
+    margin: 100px;
+    padding: 10px;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+#image-row1 {
+    align-items: center;
+    margin: 50px;
+    padding-top: 6px;
+}
