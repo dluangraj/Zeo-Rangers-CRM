@@ -1,20 +1,16 @@
 
-/* Start of Dennis CSS for -Landing Solutions */
+/* Landing Solutions */
 .col {
     text-align: center;
     padding-bottom: 5%;
 }
 
 .container i{
-    /* position: absolute;
-    padding-left: 2%;
-    padding-top: 2%; */
     position: relative;
     position: absolute;
     align-items: center;
     margin: 50px;
     padding-top: 6px;
-
 }
 
 #circles{
@@ -36,7 +32,7 @@
     padding-left: .5%
 }
 .container{
-    display: flex;
+    display: grid;
     size: 10%;
 }
 .container h1{
@@ -52,11 +48,12 @@
 
 .container input{
     padding-left: 6.5%;
+    padding-right: 6.5%;
     background: white;
     border-radius: 5px;
 }
 
-/* End of Dennis CSS for -Landing Solutions */
+/* NavBar */
 .nav-bar {
     display: flex;
     margin: 0;
@@ -72,6 +69,40 @@ li {
     padding: 40px;
 }
 
+li a{
+    text-decoration: none;
+}
+/* focus on business */
+.flexbox-container-focus {
+    display: flex; 
+}
+.flexbox-item-focus {
+    margin: 100px;
+}
+
+.flexbox-item-pic {
+    margin: 100px;
+    padding-top: 10px;
+    padding-right: 0px;
+}
+
+.flexbox-item-focus p {
+    color: gray;
+}
+
+.container-start {
+    text-align: center;
+}
+
+.start {
+    margin: 0 250px 0 250px;
+}
+
+.start h1 {
+    margin: 0 0 0 0
+}
+
+/* Footer */
 footer {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -117,6 +148,7 @@ h1 {
     padding: 50px;
 }
 
+/* Start Accepting Payments with Ease */
 .flexbox-container-1 {
     display: flex;
     justify-content: center;
@@ -164,6 +196,7 @@ h1 {
     width: 100%;
 }
 
+/* Start to Explore DoubleTap */
 #explore {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -171,12 +204,25 @@ h1 {
     margin-right: 250px;
     justify-content: center;
 }
+hr{
+    width: 60%;
+    margin: auto
+}
+
+h3{
+    font-weight: 100;
+}
+.start{
+    text-align: center;
+    margin-top: -20px
+}
 
 .grid-item-explore {
     border: solid lightgray 2px;
     border-radius: 25px;
-    margin: 100px;
+    margin: 50px;
     padding: 10px;
+    height: 25vh;
     font-size: small;
     text-align: center;
     padding-bottom: 0px;
@@ -184,7 +230,57 @@ h1 {
 
 #image-row1 {
     align-items: center;
+    position: relative;
+    margin: 30px 50px 15px 50px;
+    padding-top: 0px;
+    z-index: -1;
+    
+}
+.grid-item-explore i{
+    position: relative;
+    align-items: center;
+    
+}
+#dollar-sign{
+    align-items: center;
+    position:absolute;
+    padding-left: 80px;
+    padding-top: 40px;    
+}
+
+.grid-item {
+    border: solid lightgray 2px;
+    border-radius: 25px;
     margin: 50px;
-    padding-top: 6px;
+    margin-bottom: 200px;
+    padding: 10px;
+    height: 25vh;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+#image2-row1{
+    align-items: center;
+    position: relative;
+    margin: 30px 65px 15px 65px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#image3-row1{
+    align-items: center;
+    position: relative;
+    margin: 5px 50px 15px 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#image4-row1{
+    align-items: center;
+    position: relative;
+    margin: 5px 50px 15px 50px;
+    padding-top: 15px;
+    padding-bottom: 43px;
 }
 
