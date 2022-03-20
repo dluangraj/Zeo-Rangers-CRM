@@ -1,3 +1,70 @@
+#textalign{
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+#textalign2{
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 30px;
+    margin-top: 120px;
+    
+}
+.flexbox-container-1 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 200px 0px 200px;
+    border: solid lightgray 2px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.flexbox-item {
+    display: flexbox;
+    width: 80%;
+    margin: 0;
+    height: 100px;
+}
+
+.flexbox-item-1 { 
+    height: 250px;
+    width: auto;
+    background-color: white;
+}
+
+.flexbox-item-2 {
+    padding: 70px 40px;
+    color: white;
+    height: 100%;
+    font-size: small;
+    line-height: 40px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(9, 85, 248);
+    margin-top: 0px;
+}
+.flexbox-text{
+    margin-top: -80px;
+}
+
+#credit-card {
+    width: 100%;
+}
+.flexbox-container-2 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 200px 0px 200px;
+    border: solid lightgray 2px;
+    border-radius: 20px;
+    align-items: center;
+}
+.fit-image{
+    height:250px;
+    width: 302px;
+}
 
 /* nav bar */
 .navimg{
