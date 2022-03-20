@@ -1,0 +1,97 @@
+
+/* nav bar */
+.navimg{
+    margin-top:-20px;
+}
+.nav-bar {
+    margin-top: 0px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px;
+}
+/* focus on business */
+.flexbox-container-focus {
+    display: flex; 
+}
+.flexbox-item-focus {
+    margin: 100px;
+}
+
+.flexbox-item-pic {
+    margin: 100px;
+    padding-top: 10px;
+    padding-right: 0px;
+}
+
+.flexbox-item-focus p {
+    color: gray;
+}
+
+.container-start {
+    text-align: center;
+}
+
+.start {
+    margin: 0 250px 0 250px;
+}
+
+.start h1 {
+    margin: 0 0 0 0
+}
+
+/* footer */
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color:  rgb(9, 85, 248);
+    color: white;
+    
+}
+
+h1 {
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+.getstarted {
+    font-size: medium;
+}
+
+#getstartedbtn {
+    align-content: center;
+    margin-right: 100px;
+    color: white;
+    background-color: rgb(123, 230, 17);
+    font-size: x-large;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+#chatwithusbtn {
+    align-content: center;
+    color: rgb(9, 85, 248);
+    background-color: white;
+    font-size: x-large;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.lastline {
+    background-color:rgb(9, 85, 248);
+    font-size: medium;
+    padding: 50px;
+}
+
+
