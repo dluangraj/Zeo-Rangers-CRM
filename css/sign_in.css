@@ -1,0 +1,50 @@
+.sign-up-header img{
+width: 600px;
+height: 600px;
+}
+.sign-in-header-center {
+  margin-top: 100px;
+
+}
+input {
+  border-radius: 2em;
+  padding: 5px;
+  margin: 20px;
+  width: 300px;
+} 
+.btn-primary {
+  width: 120px;
+  border-radius: 2em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+i{
+  display: inline;
+  padding: 30px;
+  margin: auto;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+p{
+margin-top: 20px;
+font-size: 10px;
+margin-bottom: -20px; 
+}
