@@ -1,0 +1,41 @@
+.btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px;
+    
+}
+
+.btn:hover{
+    background-color: blue;
+    
+}
+
+  .sign-up-header{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0% 0% 90% 0%;
+    padding: 48px 44px 20px 44px;
+
+  }
+
+.sign-up-button {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 10px;
+    color: whitesmoke;  
+    align-content: center;
+    background-color: blue;
+    padding: 4px 40px 2px 45px;
+    border: 2px solid whitesmoke;
+}
+input {
+  width: 40%;
+  margin: 1rem;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 2rem;
