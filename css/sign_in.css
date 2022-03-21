@@ -1,29 +1,51 @@
-.sign-up-header img{
-width: 600px;
-height: 600px;
+.btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px;
+    margin-top: 20px
+    
 }
-.sign-in-header-center {
-  margin-top: 100px;
 
+.btn:hover{
+    background-color: blue;
+    
+}
+
+  .sign-up-header{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0% 0% 90% 0%;
+    padding: 48px 44px 20px 44px;
+  }
+
+
+.sign-up-button {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 10px;
+    color: whitesmoke;  
+    align-content: center;
+    background-color: blue;
+    padding: 4px 40px 2px 45px;
+    border: 2px solid whitesmoke;
 }
 input {
-  border-radius: 2em;
+  width: 40%;
+  margin: 1rem;
   padding: 5px;
-  margin: 20px;
-  width: 300px;
-} 
-.btn-primary {
-  width: 120px;
-  border-radius: 2em;
-  padding-left: 20px;
-  padding-right: 20px;
+  border: 1px solid black;
+  border-radius: 2rem;
 }
 i{
   display: inline;
   padding: 30px;
   margin: auto;
 }
-
 .input-icons i {
   position: absolute;
 }
@@ -36,15 +58,4 @@ i{
 .icon {
   padding: 10px;
   min-width: 40px;
-}
-
-.input-field {
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-}
-p{
-margin-top: 20px;
-font-size: 10px;
-margin-bottom: -20px; 
 }

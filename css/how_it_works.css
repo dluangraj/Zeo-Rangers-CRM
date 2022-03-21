@@ -21,33 +21,45 @@
     border: solid lightgray 2px;
     border-radius: 20px;
     align-items: center;
+    width: 70%;
+    padding:0
 }
 
 .flexbox-item {
     display: flexbox;
-    width: 80%;
+    width: 15%;
     margin: 0;
     height: 100px;
+
+ 
 }
 
 .flexbox-item-1 { 
-    height: 250px;
+    height: auto;
     width: auto;
     background-color: white;
+    border-radius: 20%;
+   
 }
 
 .flexbox-item-2 {
     padding: 70px 40px;
     color: white;
     height: 100%;
+    width: 100%;
     font-size: small;
-    line-height: 40px;
+    line-height: 20px;
     border-radius: 0px 20px 20px 0px;
     background-color: rgb(9, 85, 248);
     margin-top: 0px;
+    padding-right: 5px
 }
 .flexbox-text{
     margin-top: -80px;
+}
+
+.flexbox-text h1{
+    font-size: 20px;
 }
 
 #credit-card {
@@ -56,14 +68,19 @@
 .flexbox-container-2 {
     display: flex;
     justify-content: center;
-    margin: 0px 200px 0px 200px;
+    margin: 0px 200px 100px 200px;
     border: solid lightgray 2px;
     border-radius: 20px;
     align-items: center;
+    width: 70%;
+    padding:0
 }
 .fit-image{
-    height:250px;
-    width: 302px;
+    height:350px;
+    width: auto;
+}
+#card2-item2{
+    width: 100%
 }
 
 /* nav bar */
